@@ -1,0 +1,5 @@
+rootProject.name='Library Mangement System'
+include ':Main'
+include ':database'
+include ':user'
+include ':admin'

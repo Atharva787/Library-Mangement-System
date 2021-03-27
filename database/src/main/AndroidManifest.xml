@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.database">
+
+    <application
+        android:allowBackup="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AddUser"></activity>
+        <activity android:name=".UpdateUser" />
+        <activity android:name=".ManageUsers" />
+        <activity android:name=".UpdateBooks" />
+        <activity android:name=".AddBooks" />
+        <activity android:name=".ManageBooks" />
+        <activity android:name=".UserOrders" />
+        <activity android:name=".Profile" />
+        <activity
+            android:name=".IssueActivity"
+            android:parentActivityName=".ViewBooks" />
+        <activity
+            android:name=".ViewBooks"
+            android:label="Library Books">
+        </activity>
+    </application>
+
+</manifest>
